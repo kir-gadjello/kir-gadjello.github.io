@@ -1,10 +1,123 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Kirill Gadjello&#39;s personal blog and website</title>
+    <link>https://kir-gadjello.github.io/tags/</link>
+    <description>Recent content in Tags on Kirill Gadjello&#39;s personal blog and website</description>
+    <image>
+      <title>Kirill Gadjello&#39;s personal blog and website</title>
+      <url>https://kir-gadjello.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kir-gadjello.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kir-gadjello.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>checkpoint</title>
+      <link>https://kir-gadjello.github.io/tags/checkpoint/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/checkpoint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>efficiency</title>
+      <link>https://kir-gadjello.github.io/tags/efficiency/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intro</title>
+      <link>https://kir-gadjello.github.io/tags/intro/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>library</title>
+      <link>https://kir-gadjello.github.io/tags/library/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>low-level</title>
+      <link>https://kir-gadjello.github.io/tags/low-level/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/low-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mlops</title>
+      <link>https://kir-gadjello.github.io/tags/mlops/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/mlops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://kir-gadjello.github.io/tags/project/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>storage</title>
+      <link>https://kir-gadjello.github.io/tags/storage/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zipslicer</title>
+      <link>https://kir-gadjello.github.io/tags/zipslicer/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/zipslicer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>https://kir-gadjello.github.io/tags/first/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forward-looking statement</title>
+      <link>https://kir-gadjello.github.io/tags/forward-looking-statement/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/forward-looking-statement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wildcard</title>
+      <link>https://kir-gadjello.github.io/tags/wildcard/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/wildcard/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kir-gadjello.github.io/sitemap.xml
