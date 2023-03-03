@@ -27,7 +27,7 @@ UseHugoToc: true
 cover:
     image: "/large_checkpoint_example.png" # image path/url
     alt: "a screenshot of Alpa documentation showing 700GB CPU RAM requirements for checkpoint conversion" # alt text
-    caption: "Sometimes the LM checkpoint processing script's RAM requirements are unnecessarily excessive" # display caption under cover
+    caption: "Sometimes the LM checkpoint processing script's RAM requirements are entirely excessive" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 editPost:
