@@ -1,0 +1,80 @@
+---
+title: "Introducing ZIPSLICER📁✂️"
+date: 2023-02-06T00:00:00+00:00
+weight: 1
+# aliases: ["/introducing-zipslicer"]
+tags: ["zipslicer", "intro", "project", "library", "low-level", "efficiency"]
+author: "Kirill Gadjello"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Finally! A library able to access PyTorch checkpoints without causing RAM outage"
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/kir-gadjello/kir-gadjello/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+---
+
+< Screenshot of python3 process taking many gigabytes of RAM />
+
+Intended audience: individuals who find themselves working with torch checkpoints with size on the order of available CPU RAM.
+
+### Outline
+
+* Problem statement
+* Solution overview
+* Details
+* Honorable Mentions
+* Call to collaboration
+
+### Intro
+
+There is no shortage of infra problems with large ML models these days. Even if we take training out of the picture, one transient problem
+
+### The problem of monolithic checkpoint in the age of LLMs
+
+* You can and often *need* to spin up multi-gigabyte checkpoints from huggingface and other sources - and not just for inference where you at least had a splendidly-sized cluster ...
+* Model conversion pipelines are often implemented in such a way as to require the storage of a complete checkpoint state at RAM at least once - while *in principle* this shouldn't be necessary
+* Transformer neural networks enjoy a very uniform layered architecture supporting large batch sizes - you can even run inference layer-by-layer, *if your runtime supports it*
+* The naive implementation of the abovementioned runtime, while possible, suffers from the basic problem inherent to pytorch: the checkpoint writer uses large byte blobs for storing underlying tensor storage, and the default loader is engineered to load entire storage blobs.
+
+### The fine structure of a Torch checkpoint
+
+* Zip archive container file
+* (Usually small) Pickle sub-file
+* Large aggregated tensor storage sub-files
+
+### Honorable mentions
+
+* HDF5
+* Safetensors
+* Zstd seeking profile
+* Seeking-optimized ZIP
+* zipcraft
+* indexed_gz
+
+### Call to collaboration
+
+This is the first alpha-release of the library. Right now it works in a few scenrarios of my personal interest, and there is a small-ish test suite. Any help at validating the loader for a wider range of usecases (with the provided read-only tester script) is welcome.
+ 
