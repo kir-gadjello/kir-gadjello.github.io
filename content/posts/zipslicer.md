@@ -38,7 +38,7 @@ editPost:
 [ZIPSLICER is available on GitHub](https://github.com/kir-gadjello/zipslicer) and on [PyPI](https://pypi.org/project/zipslicer/).
 Intended audience: individuals who find themselves working with torch checkpoints with size on the order of available CPU RAM.
 
-### Introduction
+## Introduction
 
 Successful software design and satisfactory performance have underpinned [PyTorch](https://pytorch.org/)'s rise to the top as the premier deep learning (hereafter DL) framework over the past 5 years. From this simple observation we can proceed to notice that the majority of DL models start the post-training part of their lifecycle as a monolithic pytorch checkpoint produced by a simple `torch.save()` call.
 
@@ -50,7 +50,7 @@ There is no shortage of infra problems with large ML models these days. Even if 
 
 One could, of course, dismiss this as an issue concerning only the small circle of ML engineers whose professional tasks involve large language models. But I don't think we should underestimate the proliferation of these large models into adjacent applied fields of science, entertainment and such; and while this could be downplayed as a mere tech demo, popularity of projects like [FlexGen](https://github.com/FMInference/FlexGen) points to the popular demand for optimizing the foundations of this usecase.
 
-### The monolithic checkpoint problem in the age of LLMs
+## The monolithic checkpoint problem in the age of LLMs
 
 Here are some obvious inadequacies in realistic scenarios of working with checkpoints today:
 
@@ -68,7 +68,7 @@ While it is true that pytorch checkpoint is a [pickle – a native Pythonic form
 
 Naturally, this approach would require a customized pickle reader and tensor- and storage- loader. I took this task head-on, and in the next section I present the short rundown of problems I encountered on the way.
 
-### The fine structure of a Torch checkpoint
+## The fine structure of a Torch checkpoint
 
 We already noted that the checkpoint is a pickle – but it is also packaged in a standard zipfile.
 
@@ -88,7 +88,7 @@ This is how the initial version of ZIPSLICER came to be. Hopefully in the next v
 
 I expect this release to make practical work with large deep learning models more approachable for students and under-resourced researchers alike.
 
-### The high-level API of ZIPSLICER: zipslicer.load()
+## The high-level API of ZIPSLICER: zipslicer.load()
 
 ```python
 import torch
@@ -119,13 +119,13 @@ print(layer3_tensors)
 ```
 [See this example in the GitHub repo](https://github.com/kir-gadjello/zipslicer/blob/main/examples/example_resnet18.py)
 
-### Call to collaboration
+## Call to collaboration
 
 This is the first alpha-release of the library. Right now it works in a few scenarios of my personal interest, and there is a small-ish test suite and an exhaustive compatibility tester script. Any help at validating the loader for a wider range of usecases (with the provided read-only tester script) is welcome.
 
 The author also expresses interest in supplying HF safetensors with an efficient conversion script based on ZIPSLICER.
 
-### Honorable mentions
+## Honorable mentions
 
 * [zipcraft](https://github.com/KOLANICH-libs/zipcraft.py) - for demonstrating easy addressing into an uncompressed zipfile
 * [HDF5](https://www.hdfgroup.org/solutions/hdf5/) - for showing how it was done by our fathers
