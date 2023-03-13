@@ -211,6 +211,7 @@ div.cr-addr {
     .stable td {
         display: flex;
         width: 100%;
+        padding: 4px !important;
     }
 
     .modal {
@@ -218,7 +219,7 @@ div.cr-addr {
         background: #eee;
         top: unset;
         margin-top: 5vh;
-        height: 55vh;
+        height: calc(95vw + 100px);
         opacity: 1;
         visibility: visible;
         transition: all .3s ease;
@@ -256,5 +257,25 @@ div.cr-addr {
     header.post-header {
         margin-top: 8px;
         margin-bottom: 8px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+    #menu {
+        margin: 2px;
+        margin-right: 8px;
+    }
+
+    #menu li {
+        margin-right: 4px;
+    }
+
+    #menu a {
+        font-size: 18px !important;
+        font-style: italic;
+    }
+
+    .stable td {
+        padding: 1px !important;
     }
 }
