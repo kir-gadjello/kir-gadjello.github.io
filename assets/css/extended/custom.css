@@ -1,0 +1,260 @@
+:root {
+    --main-width: 800px;
+}
+
+table {
+    display: table !important;
+}
+
+#menu a {
+    font-size: 22px !important;
+    font-style: italic;
+}
+
+#menu a span {
+    height: 34px;
+}
+
+#menu a[title~=Donate] span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hm-icon {
+    margin-left: 4px;
+}
+
+.stable
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 20px;
+    background: #fff;
+    width: 100%;
+    text-align: left;
+}
+.stable th
+{
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    color: #039;
+    padding: 10px 8px;
+    border-bottom: 2px solid #6678b1;
+}
+.stable td
+{
+    color: #000;
+    min-width: 200px;
+    padding: 9px 8px 0px 8px;
+}
+.stable tbody tr:hover td
+{
+    color: #333;
+    background-color: rgba(240,240,240,0.5);
+    cursor: pointer;
+    position: relative;
+}
+
+.copy-tip {
+    font-size: 22px;
+}
+
+.cut-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 600px;
+    height: 1.2em;
+    white-space: nowrap;
+}
+
+.hv-btn {
+    display: flex;
+/*  position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.56);
+*/
+    cursor: pointer;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+
+.hv-btn img {
+    background-color: white; width: 32px; height: 32px;
+    display: block;
+    margin: 0 8px 0 4px;
+    padding: 0;
+    border: groove 2px white;
+}
+
+.stable tbody tr:hover .hv-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.cr-addr {
+    font-family: monospace;
+}
+
+.modal {
+    position: absolute;
+    background: #EEE;
+/*     width: 90vw; */
+    height: 90vh;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+    top: 5vh;
+/*     left: 5vw; */
+    padding: 32px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal h1 {
+    color: black !important;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal .modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal h1 {
+    padding-bottom: 10px;
+}
+
+.modal .modal-body {
+    flex-grow: 1;
+}
+
+#qr_code {
+    max-height: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    div.logo {
+        margin: 2px;
+    }
+
+    #menu {
+        margin: 2px;
+        margin-right: 8px;
+    }
+
+    #menu li {
+        margin-right: 4px;
+    }
+
+    #menu a {
+        font-size: 20px !important;
+        font-style: italic;
+    }
+
+    .cut-text {
+        text-overflow: unset;
+        overflow: unset;
+        white-space: unset;
+        height: unset;
+    }
+
+    .stable {
+        max-width: 100%;
+    }
+
+    .center {
+        position: absolute;
+        left: 2%;
+        top: 10%;
+        transform: translate(-1%,-5%);
+    }
+
+    .stable tbody {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .stable tr {
+        border: solid 1px #bbb;
+        border-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .stable tr:last-of-type {
+        border-bottom: solid 1px #bbb;
+    }
+
+    .stable td {
+        display: flex;
+        width: 100%;
+    }
+
+    .modal {
+        position: fixed;
+        background: #eee;
+        top: unset;
+        margin-top: 5vh;
+        height: 55vh;
+        opacity: 1;
+        visibility: visible;
+        transition: all .3s ease;
+        top: 5vh;
+        padding: 2px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.cr-addr {
+        font-family: monospace;
+        word-wrap: break-word;
+        max-width: 90vw;
+    }
+
+    .entry-header h1 {
+        font-size: 30px !important;
+    }
+
+    .logo-switches {
+        margin: 0;
+    }
+
+    footer.footer {
+        padding-top: 2px;
+    }
+
+    main.main {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    header.post-header {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}

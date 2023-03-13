@@ -81,6 +81,10 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/kir-gadjello"
+    - name: email
+      url: "mailto:kirill.gadjello@protonmail.com"
+    - name: telegram
+      url: "https://t.me/reactiveloop"
 
   analytics:
     google:
@@ -116,10 +120,21 @@ menu:
     #   name: categories
     #   url: /categories/
     #   weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: about
+      cls: ''
+      name: About Me
+      url: /about/
+      weight: 10
+    - identifier: donate
+      cls: ''
+      name: "Donate"
+      url: /donate/
       weight: 20
+    - identifier: tags
+      cls: ''
+      name: Tags
+      url: /tags/
+      weight: 100
     # - identifier: Home
     #   name: example.org
     #   url: https://example.org
