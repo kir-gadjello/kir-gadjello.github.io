@@ -1,8 +1,8 @@
 ---
 title: "GPT-4 architecture: what we can deduce from research literature"
-date: 2023-03-12T00:00:00+00:00
+date: 2023-03-14T00:00:00+00:00
 weight: 1
-aliases: ["/expectations-gpt4"]
+aliases: ["/gpt4-some-technical-hypotheses"]
 tags: ["futurology", "technical", "ml", "lm", "sparsity", "attention", "efficiency", "gpt", "ai"]
 author: "Kirill Gadjello"
 # author: ["Me", "You"] # multiple authors
@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Which techniques are likely to land in the latest foundation model? [V0.1]"
-canonicalURL: "https://kir-gadjello.github.io/expectations-gpt4"
+canonicalURL: "https://kir-gadjello.github.io/gpt4-some-technical-hypotheses"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
