@@ -149,4 +149,14 @@ markup:
     guessSyntax: true
     lineNos: true
     style: obsidian
-
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
