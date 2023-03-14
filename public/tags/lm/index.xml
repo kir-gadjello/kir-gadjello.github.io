@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>efficiency on Kirill Gadjello&#39;s personal blog and website</title>
-    <link>https://kir-gadjello.github.io/tags/efficiency/</link>
-    <description>Recent content in efficiency on Kirill Gadjello&#39;s personal blog and website</description>
+    <title>lm on Kirill Gadjello&#39;s personal blog and website</title>
+    <link>https://kir-gadjello.github.io/tags/lm/</link>
+    <description>Recent content in lm on Kirill Gadjello&#39;s personal blog and website</description>
     <image>
       <title>Kirill Gadjello&#39;s personal blog and website</title>
       <url>https://kir-gadjello.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://kir-gadjello.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kir-gadjello.github.io/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kir-gadjello.github.io/tags/lm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GPT-4 architecture: what we can deduce from research literature</title>
       <link>https://kir-gadjello.github.io/posts/my_expectations_for_gpt4/</link>
@@ -18,15 +18,6 @@
       
       <guid>https://kir-gadjello.github.io/posts/my_expectations_for_gpt4/</guid>
       <description>Which techniques are likely to land in the latest foundation model? [V0.1]</description>
-    </item>
-    
-    <item>
-      <title>Introducing ZIPSLICER📁✂️</title>
-      <link>https://kir-gadjello.github.io/posts/zipslicer/</link>
-      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kir-gadjello.github.io/posts/zipslicer/</guid>
-      <description>Finally! A library able to access PyTorch checkpoints without causing RAM outage [V1]</description>
     </item>
     
   </channel>

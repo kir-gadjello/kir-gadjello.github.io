@@ -10,7 +10,16 @@
       <link>https://kir-gadjello.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kir-gadjello.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kir-gadjello.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT-4 architecture: what we can deduce from research literature</title>
+      <link>https://kir-gadjello.github.io/posts/my_expectations_for_gpt4/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/posts/my_expectations_for_gpt4/</guid>
+      <description>Which techniques are likely to land in the latest foundation model? [V0.1]</description>
+    </item>
+    
     <item>
       <title>Introducing ZIPSLICER📁✂️</title>
       <link>https://kir-gadjello.github.io/posts/zipslicer/</link>

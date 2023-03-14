@@ -10,22 +10,94 @@
       <link>https://kir-gadjello.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kir-gadjello.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kir-gadjello.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>checkpoint</title>
-      <link>https://kir-gadjello.github.io/tags/checkpoint/</link>
-      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      <title>ai</title>
+      <link>https://kir-gadjello.github.io/tags/ai/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://kir-gadjello.github.io/tags/checkpoint/</guid>
+      <guid>https://kir-gadjello.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attention</title>
+      <link>https://kir-gadjello.github.io/tags/attention/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/attention/</guid>
       <description></description>
     </item>
     
     <item>
       <title>efficiency</title>
       <link>https://kir-gadjello.github.io/tags/efficiency/</link>
-      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://kir-gadjello.github.io/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>futurology</title>
+      <link>https://kir-gadjello.github.io/tags/futurology/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/futurology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gpt</title>
+      <link>https://kir-gadjello.github.io/tags/gpt/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/gpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lm</title>
+      <link>https://kir-gadjello.github.io/tags/lm/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/lm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ml</title>
+      <link>https://kir-gadjello.github.io/tags/ml/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sparsity</title>
+      <link>https://kir-gadjello.github.io/tags/sparsity/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/sparsity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://kir-gadjello.github.io/tags/technical/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>checkpoint</title>
+      <link>https://kir-gadjello.github.io/tags/checkpoint/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kir-gadjello.github.io/tags/checkpoint/</guid>
       <description></description>
     </item>
     
